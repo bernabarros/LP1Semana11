@@ -8,7 +8,7 @@ namespace PlayerManagerMVC2
     public class Controller
     {
         /// The list of all players
-        private readonly  PlayersList playerList;
+        private  PlayersList playerList;
 
         // Comparer for comparing player by name (alphabetical order)
         private readonly IComparer<Player> compareByName;

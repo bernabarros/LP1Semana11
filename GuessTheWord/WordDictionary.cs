@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheWord
 {
-    public class WordDictionary
+    public class WordDictionary : Dictionary<string,string>
     {
         
     }
